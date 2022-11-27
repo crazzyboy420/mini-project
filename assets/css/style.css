@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4{
+    font-weight: 500;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    border: none;
+    padding: 6px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/*Header CSS*/
+.header{
+    background-color: #536EEF;
+    color: #fff;
+    padding: 10px 0;
+}
+.header h2{
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    letter-spacing: 3px;
+}
+.todo{
+    display: flex;
+    height: 92vh;
+    justify-content: center;
+    background-color: #DBEAFE;
+}
+/*Form CSS*/
+
+form.todo-form input[type="text"] {
+    padding: 10px 80px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form.todo-form {
+    margin-top: 50px;
+    height: 199px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -1px -1px 25px 0px #dddddd;
+}
+.btn.back{
+    background-color: #1A2DAC;
+    margin: 0 0 15px 0;
+}
+.input-box{
+    position: relative;
+}
+form.todo-form button {
+    border: none;
+    background-color: #059862;
+    color: #fff;
+    padding: 10.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.checkbox{
+   margin-top: 5px;
+}
+form.todo-form img {
+    position: absolute;
+    left: 15px;
+    top: 9px;
+}
+form.todo-form input[type="text"]:focus-visible {
+    outline: none;
+}
+
+
+/*Todo list CSS*/
+.todo-list {
+    background-color: #fff;
+    max-height: 350px;
+    margin-top: 50px;
+    padding: 62px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: -1px -1px 25px 0px #dddddd;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title a {
+    border: none;
+    padding: 6px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4CAF50;
+}
+
+.title h3 {
+    padding: 0;
+    margin: 0;
+}
+.list-item ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+    overflow: auto;
+    list-style: none;
+    height: 317px;
+
+}
+
+.list-item ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-item li >div {
+    display: flex;
+    align-items: center;
+}
+
+.list-item li>div svg {
+    fill: #22C55E;
+    border: 1px solid #22C55E;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 8px;
+}
+.circle{
+    border: 1px solid #dddddd;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 8px;
+}
+.btn.edit{
+    background-color: #007DA6;
+    margin-right: 5px;
+}
+.btn.delete{
+    background-color: #F44336;
+}
